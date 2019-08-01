@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding"UTF-0"?>
+<empresa>
+  <empleado>
+       <primernombre>roberto </primernombre>  
+        <apellido> vazquez </apellido>
+         <numerocontrato> 123</numerocontrato>
+         <correoelectronico> pepeowen@hotmail.com</correoelectronico>
+         <direccion> 
+              <ciudad>santander</ciudad>
+              <estado>cantabria </estado> 
+            <zip>39011</zip>   
+          </direccion>
+           
+    </empleado>
+    
+    <empleado>
+       <primernombre>alejandro </primernombre>  
+        <apellido> ortiz </apellido>
+         <numerocontrato> 124</numerocontrato>
+         <correoelectronico> jandruco@hotmail.com</correoelectronico>
+         <direccion>
+              <ciudad>santander</ciudad>
+              <estado>cantabria </estado> 
+            <zip>39001</zip>   
+          </direccion>
+           
+    </empleado> 
+            
+</empresa>
