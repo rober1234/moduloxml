@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tienda>
+   <cds>
+      <cd titulo="Still goy yhe blues">
+           <artista> Gary Moore</artista>
+           <pais>UK</pais>
+           <compañiadiscografica>Virgin records</compañiadiscografica>
+           <precio>10.20</precio>
+           <añopublicacion>1990</añopublicacion>
+       </cd>
+       
+       <cd titulo="One night only">
+           <artista> Bee Gees</artista>
+           <pais>UK</pais>
+           <compañiadiscografica>Polydor</compañiadiscografica>
+           <precio>10.90</precio>
+           <añopublicacion>1998</añopublicacion>
+       </cd>
+       
+       <cd titulo="When a man loves a woman">
+           <artista> Percy Sledge</artista>
+           <pais>USA</pais>
+           <compañiadiscografica>Atlantic</compañiadiscografica>
+           <precio>8.70</precio>
+           <añopublicacion>1997</añopublicacion>
+       </cd>
+       
+       <cd titulo="Big Wille style">
+           <artista> Will Smith</artista>
+           <pais>USA</pais>
+           <compañiadiscografica>Columbia</compañiadiscografica>
+           <precio>9.90</precio>
+           <añopublicacion>1997</añopublicacion>
+       </cd>
+       
+       <cd titulo="La cancion de Juan Perro">
+           <artista> radio Futura</artista>
+           <pais>ESPAÑA</pais>
+           <compañiadiscografica>Sony Music-Ariola</compañiadiscografica>
+           <precio>9.90</precio>
+           <añopublicacion>1987</añopublicacion>
+       </cd>
+       
+       
+       
+       <cd titulo="The dock of the bay">
+           <artista> Ostis readding </artista>
+           <pais>USA</pais>
+           <compañiadiscografica>Atlantic</compañiadiscografica>
+           <precio>7.90</precio>
+           <añopublicacion>1987</añopublicacion>
+       </cd>
+       
+       
+       
+       </cds>
+
+
+</tienda>

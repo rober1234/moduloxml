@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="colores.css"?>
+<mezclas_de_colores>
+ <mezcla resultado="naranja">
+    
+     
+  <color>rojo</color>    
+    <color>amarillo</color>
+    <tono>claro</tono>
+    
+ </mezcla>
+
+
+<mezcla resultado="gris">
+     <tono>claro</tono>
+     <color>negro</color>    
+     <color>blanco</color>
+    
+    
+ </mezcla>
+    
+    
+    <mezcla resultado="verde claro">
+      <tono>claro</tono>
+      <color>amarillo</color>    
+      <color>azul</color>
+        <color>blanco</color>
+    
+     </mezcla>
+
+
+</mezclas_de_colores>

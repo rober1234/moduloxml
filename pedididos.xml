@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pedidos>
+ <pedido>
+      <destinatario>  
+          <nombre>Juan</nombre>
+          <apellidos>Delgado Martinez</apellidos>
+     </destinatario>
+      <articulo="A2023">bicicleta</articulo> 
+      <dirección>calle barco,4</dirección>
+      <fecha> 19-5-2000 </fecha>
+</pedido>
+
+</pedidos>
+
