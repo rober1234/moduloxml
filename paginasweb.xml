@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<marcadores>
+  
+ <paginaweb>
+     
+     <nombre> Real Racing Club</nombre>
+     <descripcion>Pagina del Glorioso </descripcion>       
+      <url>https://www.realracingclub.es/ </url>
+    
+    
+    
+</paginaweb>       
+    
+<paginaweb>
+     
+     <nombre> Wikipedia</nombre>
+     <descripcion>La enciclopedia libre. </descripcion>       
+      <url>https://www.wikipedia.org/ </url>
+    
+    
+    
+</paginaweb>       
+
+<paginaweb>
+     
+     <nombre> W3C</nombre>
+     <descripcion> World Wide Web Consorium.</descripcion>       
+      <url>https://www.w3.org/ </url>
+    
+    
+    
+</paginaweb>       
+
+ <paginaweb>
+     
+     <nombre> Alpeformacion</nombre>
+     <descripcion>Centro de formación Alpe</descripcion>       
+      <url>https://www.Alpeformacion.es/ </url>
+    
+    
+    
+</paginaweb>    
+
+
+
+</marcadores>
