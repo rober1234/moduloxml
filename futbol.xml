@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<equipos>
+
+   <equipo>
+      <nombre> Real de Madrid</nombre>
+       <ciudad> Madrid   </ciudad>
+       <entrenador/>
+     <jugador posicion="delantero">
+           <nombre> CR7 </nombre>
+           <nacionalida>Portugal</nacionalida>
+         
+     </jugador>    
+    
+    </equipo>
+       
+<equipo>
+        <nombre> Real Racing Club </nombre>
+        <ciudad> Santander  </ciudad> 
+        <entrenador/>
+       <jugador posicion="portero">
+             <nombre> Ivan Crespo </nombre>
+             <nacionalida>Español</nacionalida>
+         
+       </jugador>    
+    
+    </equipo>
+
+
+
+
+
+
+
+</equipos>

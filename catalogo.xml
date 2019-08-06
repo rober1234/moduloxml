@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalogo.css"?>
+    <catalogo>
+    
+    
+        
+          <pelicula genero="terror" >
+              
+              <titulo>exorcista</titulo>
+              <Director>Jperson</Director>      
+              <actores>
+                 <actor>Ellen Burstyn</actor>
+                 <actor>Max Von Sydow</actor>  
+                 <actor>Linda Blair </actor>
+              </actores>
+              <fecha>12-06-1973</fecha>
+              <duración>147 min</duración>
+              
+               
+                    
+          </pelicula>
+        
+          <pelicula genero="terror" >
+              
+              <titulo>Chuqui</titulo>
+              <Director>Jperson</Director>      
+              <actores>
+                 <actor>Ellen Burstyn</actor>
+                 <actor>Max Von Sydow</actor>  
+                 <actor>Linda Blair </actor>
+              </actores>
+              <fecha>12-06-1980</fecha>
+              <duración>120 min</duración>
+              
+               
+                    
+          </pelicula>   
+        
+            
+           
+        
+          <pelicula genero="accion" >
+              
+              <titulo>Rambo</titulo>
+              <Director>Jper</Director>      
+              <actores>
+                 <actor>silvestre stallone</actor>
+                 <actor>Max Von Sydow</actor>  
+                 <actor>Linda Blair </actor>
+              </actores>
+              <fecha>12-06-184</fecha>
+              <duración>145 min</duración>
+              
+              
+          </pelicula>
+        
+                
+          <pelicula genero="accion">
+              
+              <titulo>Acorralado</titulo>
+              <Director>Jper</Director>      
+              <actores>
+                 <actor>silvestre stallone</actor>
+                 <actor> Sydow</actor>  
+                 <actor>Lind </actor>
+              </actores>
+              <fecha>12-06-174</fecha>
+              <duración>130 min</duración>
+              
+              
+          </pelicula>
+    
+        
+        
+        
+    
+   </catalogo>
+
+

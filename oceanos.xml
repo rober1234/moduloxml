@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="oceanos.css"?>
+<oceanos>
+
+   <oceano>
+    
+     <nombre>Ártico</nombre>
+    <area>13.000</area>
+    <profundidad> 1.200</profundidad>
+    
+        
+    </oceano>
+
+
+    <oceano>
+    
+     <nombre>Atlántico</nombre>
+    <area>87.000</area>
+    <profundidad> 3.900</profundidad>
+    
+        
+    </oceano>
+
+
+
+    <oceano>
+    
+     <nombre>Pacífico</nombre>
+    <area>180.000</area>
+    <profundidad> 4.000</profundidad>
+    
+        
+    </oceano>
+
+
+    <oceano>
+    
+     <nombre>Indico</nombre>
+    <area> 75.000</area>
+    <profundidad>3.900 </profundidad>
+    
+        
+    </oceano>
+
+    <oceano>
+    
+     <nombre>Antártico</nombre>
+    <area>20.000</area>
+    <profundidad>4.500</profundidad>
+    
+        
+    </oceano>
+    
+    
+    
+</oceanos>
