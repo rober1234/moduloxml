@@ -12,9 +12,7 @@
 
 ]>
 
-
 <equipos>
-
    <equipo>
       <nombre> Real de Madrid</nombre>
        <ciudad> Madrid   </ciudad>
@@ -22,23 +20,19 @@
      <jugador posicion="delantero">
            <nombrej> CR7 </nombrej>
            <nacionalidad>Portugal</nacionalidad>
-         
+     
      </jugador>    
-    
     </equipo>
        
-<equipo>
+    <equipo>
         <nombre> Real Racing Club </nombre>
         <ciudad> Santander  </ciudad> 
         <entrenador/>
        <jugador posicion="portero">
+
              <nombrej> Ivan Crespo </nombrej>
              <nacionalidad>Español</nacionalidad>
          
        </jugador>    
-    
     </equipo>
-    
-    
-
 </equipos>
