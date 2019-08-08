@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "libro.dtd">
+<libros>
+   <libro>
+     <portada>
+         <titulo> </titulo>
+         <edicion></edicion>               
+    </portada>
+       <autor>
+        <nombre></nombre>
+        <apellidos></apellidos>
+         <email></email>
+         <anonimo/>  
+      </autor>
+      <editor>
+          <nombre></nombre>
+          <apellidos></apellidos>
+          <direccion>
+               <calle></calle>
+               <poblacion></poblacion>
+               <provincia></provincia>
+               <pais></pais>
+             
+         </direccion>
+       
+      </editor>
+       
+    <cuerpo >
+        <parte>
+            <titulo></titulo>
+                        
+                <capitulo> 
+                     <titulo></titulo>
+                      <bloques></bloques>
+                    <seccion>
+                        <titulo></titulo>
+                         <bloque></bloque>
+                            <sub_seccion>
+                              <titulo></titulo>
+                               <bloques></bloques>
+                            </sub_seccion>
+                    
+                    </seccion>
+                <parrafo>
+                       <parrafo alinia="iz">
+                            
+                           
+                        </parrafo>
+                    
+                    
+                    </parrafo>   
+                    
+                    <lista tipo="num">
+                        <item></item>
+                        <codigo lenguaje="c"></codigo>
+                                                            
+                    </lista>
+                    
+                </capitulo>
+             
+               <contraportada>
+                   
+                   <glosario>
+                        <titulo></titulo>
+                        <entrada>
+                            <titulo></titulo>
+                            <definicion></definicion>
+                            
+                       </entrada>
+                        
+                     
+                   
+                   </glosario>
+             
+               </contraportada>
+         
+        </parte>    
+         
+        
+        
+    </cuerpo> 
+    
+    
+    </libro>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</libros>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<departamentos>
+   
+    <departamento>
+          <nombredept></nombredept>
+          <responsable>
+               <nombre></nombre>
+                <apellidos></apellidos>
+                <email></email>
+                <extension></extension>
+                      
+         </responsable>
+          <personas>
+                 <persona>
+                      <nombre></nombre>
+                      <apellidos></apellidos>   
+                      <email></email>
+                      <extension></extension>
+                </persona>
+        
+                <persona>
+                      <nombre></nombre>
+                      <apellidos></apellidos>   
+                      <email></email>
+                      <extension></extension>
+                </persona>
+        
+        </personas>
+    
+    </departamento>
+    
+     <departamento>
+          <nombredept></nombredept>
+          <responsable>
+               <nombre></nombre>
+                <apellidos></apellidos>
+                <email></email>
+                <extension></extension>
+                      
+         </responsable>
+          <personas>
+                 <persona>
+                      <nombre></nombre>
+                      <apellidos></apellidos>   
+                      <email></email>
+                      <extension></extension>
+                </persona>
+        
+                <persona>
+                      <nombre></nombre>
+                      <apellidos></apellidos>   
+                      <email></email>
+                      <extension></extension>
+                </persona>
+        
+        </personas>
+    
+    </departamento>
+        
+</departamentos>

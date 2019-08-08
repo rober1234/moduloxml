@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleados [
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (nombre,apellidos,dni?,fijo?,direccion+)
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT fijo (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+
+]>

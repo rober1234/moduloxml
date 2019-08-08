@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa [
+<!ELEMENT empresa (empleados)*>
+<!ELEMENT empleados (primernombre,apellido+,numerocontrato,correoelectronico) >
+ <!ELEMENT primernombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+ <!ELEMENT numerocontrato  (#PCDATA)>
+<!ELEMENT correoelectronico (#PCDATA)>
+<!ELEMENT direccion (ciudad,estado)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+]>
 <empresa>
   <empleado>
        <primernombre>roberto </primernombre>  
@@ -10,9 +22,7 @@
               <estado>cantabria </estado> 
             <zip>39011</zip>   
           </direccion>
-           
     </empleado>
-    
     <empleado>
        <primernombre>alejandro </primernombre>  
         <apellido> ortiz </apellido>
@@ -23,7 +33,5 @@
               <estado>cantabria </estado> 
             <zip>39001</zip>   
           </direccion>
-           
     </empleado> 
-            
 </empresa>

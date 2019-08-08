@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<concesionario>
+
+            
+        <coche>
+            <año>1996</año>
+            <color>rojo</color>    
+            <tipo>utilitario</tipo>
+            <marca>bmw 3</marca>    
+            <km>122.345</km>
+            <precio> 16.700 €</precio>
+            
+            <provincia nombreprovincia="Cantabria">
+                   
+                  <ciudad>Santander</ciudad>
+                  <nombreconcesionaro>concesionario raos </nombreconcesionaro>
+                   
+            </provincia>
+            
+            <vendedor>
+                  <idempleado>23</idempleado>
+                 <nombre>Pepe</nombre>
+                 <Apellido> Gutierrez Fernandez</Apellido>
+            </vendedor>
+              
+        
+        </coche>
+    
+    
+    <coche>
+            <año>2005</año>
+            <color>blanco</color>    
+            <tipo>4x4</tipo>
+            <marca>Land Rover Ranger</marca>    
+            <km>33.567</km>
+            <precio> 27.200 €</precio>
+            <provincia nombreprovincia="Castilla y Leon">
+                   
+                  <ciudad>Burgos</ciudad>
+                  <nombreconcesionaro>concesionario burgastur </nombreconcesionaro>
+                   
+            </provincia>
+            <vendedor>
+                  <idempleado>21</idempleado>
+                 <nombre>Luis</nombre>
+                 <Apellido> Perez Suárez</Apellido>
+            </vendedor>
+              
+        
+        </coche>
+    
+    
+    
+    <coche>
+            <año>2007</año>
+            <color>azul</color>    
+            <tipo>deportivo</tipo>
+            <marca>bmw 3 serie deportivo</marca>    
+            <km>133.549</km>
+            <precio> 27.000 €</precio>
+            <provincia nombreprovincia="Cantabria">
+                   
+                  <ciudad>torrelavega</ciudad>
+                  <nombreconcesionaro>concesionario torre </nombreconcesionaro>
+                   
+            </provincia>
+            <vendedor>
+                  <idempleado>12</idempleado>
+                 <nombre>Juan</nombre>
+                 <Apellido> Ortiz Perez</Apellido>
+            </vendedor>
+              
+        
+        </coche>
+    
+    <coche>
+            <año>1999</año>
+            <color>gris</color>    
+            <tipo>utilitario</tipo>
+            <marca>Renault</marca>    
+            <km>145.000</km>
+            <precio> 11.000 €</precio>
+            <provincia nombreprovincia="Asturias">
+                   
+                  <ciudad>Oviedor</ciudad>
+                  <nombreconcesionaro>concesionario oviedu </nombreconcesionaro>
+                   
+            </provincia>
+            <vendedor>
+                  <idempleado>11</idempleado>
+                 <nombre>Plablito</nombre>
+                 <Apellido> Gutierrez Gutierrez</Apellido>
+            </vendedor>
+              
+        
+        </coche>
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+</concesionario>

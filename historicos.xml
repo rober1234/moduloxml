@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE hechohistorico [
+     
+ <!ELEMENT hechohistorico (hecho+)>
+ <!ELEMENT hecho (fecha)>
+ <!ATTLIST hecho descripcion CDATA #REQUIERED>
+ <!ELEMENT fecha (dia,mes,ano)>
+ <!ELEMENT dia (#PCDATA)>
+ <!ELEMENT mes (#PCDATA)>
+ <!ELEMENT ano (#PCDATA)>
+ 
+]>
+
 <hechohistorico>
  
     <hecho descripcion="IBM da a conocer el PC" >
@@ -7,7 +19,7 @@
         <fecha>
          <dia>12</dia>
          <mes>8</mes>
-         <año>1981</año>        
+         <ano>1981</ano>        
         </fecha>
      
         
@@ -19,7 +31,7 @@
         <fecha>
          <dia>4</dia>
          <mes>9</mes>
-         <año>1998</año>        
+         <ano>1998</ano>        
         </fecha>
             
     
@@ -31,7 +43,7 @@
         <fecha>
          <dia>4</dia>
          <mes>2</mes>
-         <año>2004</año>        
+         <ano>2004</ano>        
         </fecha>
      
         

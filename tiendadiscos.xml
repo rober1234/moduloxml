@@ -1,45 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tienda [
+<!ELEMENT tienda (cds)>
+<!ELEMENT cds (cd)*>
+<!ELEMENT cd (artista,pais,companiadiscografica,precio,anopublicacion)>
+<!ATTLIST cd titulo CDATA #REQUIRED>
+<!ELEMENT artista (#PCDATA)>
+ <!ELEMENT pais (#PCDATA)>
+ <!ELEMENT companiadiscografica (#PCDATA)>
+ <!ELEMENT precio (#PCDATA)>
+ <!ELEMENT anopublicacion (#PCDATA)>
+ 
+
+]>
 
 <tienda>
    <cds>
       <cd titulo="Still goy yhe blues">
            <artista> Gary Moore</artista>
            <pais>UK</pais>
-           <compañiadiscografica>Virgin records</compañiadiscografica>
+           <companiadiscografica>Virgin records</companiadiscografica>
            <precio>10.20</precio>
-           <añopublicacion>1990</añopublicacion>
+           <anopublicacion>1990</anopublicacion>
        </cd>
        
        <cd titulo="One night only">
            <artista> Bee Gees</artista>
            <pais>UK</pais>
-           <compañiadiscografica>Polydor</compañiadiscografica>
+           <companiadiscografica>Polydor</companiadiscografica>
            <precio>10.90</precio>
-           <añopublicacion>1998</añopublicacion>
+           <anopublicacion>1998</anopublicacion>
        </cd>
        
        <cd titulo="When a man loves a woman">
            <artista> Percy Sledge</artista>
            <pais>USA</pais>
-           <compañiadiscografica>Atlantic</compañiadiscografica>
+           <companiadiscografica>Atlantic</companiadiscografica>
            <precio>8.70</precio>
-           <añopublicacion>1997</añopublicacion>
+           <anopublicacion>1997</anopublicacion>
        </cd>
        
        <cd titulo="Big Wille style">
            <artista> Will Smith</artista>
            <pais>USA</pais>
-           <compañiadiscografica>Columbia</compañiadiscografica>
+           <companiadiscografica>Columbia</companiadiscografica>
            <precio>9.90</precio>
-           <añopublicacion>1997</añopublicacion>
+           <anopublicacion>1997</anopublicacion>
        </cd>
        
        <cd titulo="La cancion de Juan Perro">
            <artista> radio Futura</artista>
            <pais>ESPAÑA</pais>
-           <compañiadiscografica>Sony Music-Ariola</compañiadiscografica>
+           <companiadiscografica>Sony Music-Ariola</companiadiscografica>
            <precio>9.90</precio>
-           <añopublicacion>1987</añopublicacion>
+           <anopublicacion>1987</anopublicacion>
        </cd>
        
        
@@ -47,9 +60,9 @@
        <cd titulo="The dock of the bay">
            <artista> Ostis readding </artista>
            <pais>USA</pais>
-           <compañiadiscografica>Atlantic</compañiadiscografica>
+           <companiadiscografica>Atlantic</companiadiscografica>
            <precio>7.90</precio>
-           <añopublicacion>1987</añopublicacion>
+           <anopublicacion>1987</anopublicacion>
        </cd>
        
        

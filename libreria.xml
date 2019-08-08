@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+    <libro isbn="9788426724632">
+        <titulo>EL GRAN LIBRO DE HTML5, CSS3 Y JAVASCRIPT</titulo>
+        <autor>VV. AA.</autor>
+        <editorial>S.A. MARCOMBO</editorial>
+        <idioma>Español</idioma>
+        <anno>2017</anno>
+        <descripcion>El gran libro de HTML5, CSS3 y JavaScript guía al lector paso a paso en el desarrollo de sitios y aplicaciones web.
+                     Después de leer este libro sabrá cómo estructurar sus documentos con HTML, cómo otorgarles estilos con CSS y
+                     cómo trabajar con las más poderosas APIs de JavaScript. Este libro es un curso completo que le enseñará cómo construir
+                     sitios webs adaptables y aplicaciones revolucionarias desde cero. Cada capítulo explora conceptos básicos y complejos de HTML,
+                     CSS y JavaScript. La información viene acompañada por ejemplos funcionales que guían al recién iniciado y también al programador
+                     experto a través de cada etiqueta, estilo y función incluidos en estos lenguajes.</descripcion>
+        <precio_euros tapa="blanda">31.40</precio_euros>
+        <categoria>Informática</categoria>
+    </libro>
+    
+    <libro isbn="9780571238347">
+        <titulo>THE ANIMATOR'S SURVIVAL KIT</titulo>
+        <autor>RICHARD E. WILLIAMS</autor>
+        <editorial>Faber &amp; Faber</editorial>
+        <idioma>Inglés</idioma>
+        <anno>2009</anno>
+        <descripcion>La animación es una de las áreas más populares y creativas de la realización de películas en la actualidad. Durante sus más de
+                     40 años en el negocio, Richard Williams ha sido uno de los verdaderos innovadores y sirve de enlace entre la era dorada de
+                     la animación a mano y los nuevos éxitos de la animación por computadora. En este libro, basado en su clase magistral de animación
+                     agotada en los Estados Unidos y en toda Europa, Williams proporciona los principios subyacentes de la animación que necesita todo
+                     animador, desde principiante hasta experto, animador clásico y genio de la animación por computadora.</descripcion>
+        <precio_euros tapa="blanda">25.36</precio_euros>
+        <precio_euros tapa="dura">45.36</precio_euros>
+        <categoria>Cine</categoria>
+    </libro>
+</libreria>

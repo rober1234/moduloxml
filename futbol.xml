@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos [
+<!ELEMENT equipos (equipo)+>
+<!ELEMENT equipo (nombre,ciudad,entrenador)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT entrenador EMPTY>
+<!ELEMENT jugador (nombre,nacionalidad)>
+<!ATTLIST jugador posicion CDATA #REQUIRED>
+<!ELEMENT nombrej (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+
+]>
+
 
 <equipos>
 
@@ -7,8 +20,8 @@
        <ciudad> Madrid   </ciudad>
        <entrenador/>
      <jugador posicion="delantero">
-           <nombre> CR7 </nombre>
-           <nacionalida>Portugal</nacionalida>
+           <nombrej> CR7 </nombrej>
+           <nacionalidad>Portugal</nacionalidad>
          
      </jugador>    
     
@@ -19,17 +32,13 @@
         <ciudad> Santander  </ciudad> 
         <entrenador/>
        <jugador posicion="portero">
-             <nombre> Ivan Crespo </nombre>
-             <nacionalida>Español</nacionalida>
+             <nombrej> Ivan Crespo </nombrej>
+             <nacionalidad>Español</nacionalidad>
          
        </jugador>    
     
     </equipo>
-
-
-
-
-
-
+    
+    
 
 </equipos>

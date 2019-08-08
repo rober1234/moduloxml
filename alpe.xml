@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alpeformacion SYSTEM "alpe.dtd">
+
+<alpeformacion>
+    <aula numero ="1">
+        <puestos>15</puestos>
+        <aireacondicionado/>
+        <certificado>
+            <nombre>SGI</nombre>
+            <horas>530</horas>
+        </certificado>
+        <certificado>
+            <nombre>SGBD</nombre>
+            <horas>620</horas>
+        </certificado>
+    </aula>
+    <aula numero="3">
+        <puestos>18</puestos>
+         <certificado>
+            <nombre>Seguridad Informatica</nombre>
+            <horas>510</horas>
+        </certificado>
+    </aula>
+</alpeformacion>

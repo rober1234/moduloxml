@@ -1,0 +1,37 @@
+<!-- DTD de un libro --> 
+<!ELEMENT libros (libro+)> 
+<!ELEMENT libro (portada, cuerpo, contraportada?)> 
+<!-- PORTADA --> 
+<!ELEMENT portada (titulo, edicion, autor, editor)> 
+<!ELEMENT titulo (#PCDATA)> 
+<!ELEMENT edicion (#PCDATA)> 
+<!ELEMENT autor ((nombre, apellidos, email?) | anonimo)> 
+<!ELEMENT nombre (#PCDATA)> 
+<!ELEMENT apellidos (#PCDATA)> 
+<!ELEMENT email (#PCDATA)> 
+<!ELEMENT anonimo EMPTY> 
+<!ELEMENT editor (nombre, apellidos, direccion?)> 
+<!ELEMENT direccion (calle, poblacion, provincia?, pais?)> 
+<!ELEMENT calle (#PCDATA)> 
+<!ELEMENT poblacion (#PCDATA)> 
+<!ELEMENT provincia (#PCDATA)> 
+<!ELEMENT pais (#PCDATA)> 
+<!-- CUERPO --> 
+<!ELEMENT cuerpo (parte+ | capitulo+)> 
+<!ELEMENT parte (titulo, capitulo+)> 
+<!ENTITY % Bloques "(parrafo | lista | codigo)*"> 
+<!ELEMENT capitulo (titulo, %Bloques;, seccion*)> 
+<!ELEMENT seccion (titulo, %Bloques;, sub-seccion*)> 
+<!ELEMENT sub-seccion (titulo, %Bloques;)> 
+<!ELEMENT parrafo (#PCDATA)> 
+<!ATTLIST parrafo alinea (izq | cent | der | just) "just"> 
+<!ELEMENT lista (item+)> 
+<!ATTLIST lista tipo (num | rom | alpha) #REQUIRED> 
+<!ELEMENT item (#PCDATA)> 
+<!ELEMENT codigo (#PCDATA)> 
+<!ATTLIST codigo lenguaje (c | cobol | java | vb) "c"> 
+<!-- CONTRAPORTADA --> 
+<!ELEMENT contraportada (glosario)> 
+<!ELEMENT glosario (titulo, entrada*)> 
+<!ELEMENT entrada (titulo, definicion+)> 
+<!ELEMENT definicion (#PCDATA)> 
