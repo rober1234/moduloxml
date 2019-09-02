@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco [
+<!ElEMENT banco (sucursales)>
+<!ELEMENT sucursales (sucursal+)>
+<!ATTLIST codsucursal CDATA #REQUIRED>
+<!ELEMENT cuentas (cuenta+)>
+<!ATTLIST codcuenta CDATA #REQUIRED>
+<!ELEMENT cuenta (cliente,domiciliaciones,prestamos)>
+<!ELEMENT cliente (nombre,apellidos,direccion,telefono,operaciones,privilegios)>
+<!ATTLIST nif CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT operaciones (operacion+)>
+<!ELEMENT privilegios (tarjetacredito,tarjetadebito)>
+<!ELEMENT domiciliaciones (domiciacion+)>
+<!ELEMENT domiciliacion (agua,luz,gas)>
+<!ELEMENT agua (#PCDATA)>
+<!ELEMENT luz  (#PCDATA)>
+<!ELEMENT gas (#PCDATA)>
+<!ELEMENT prestamos (prestamo+)>
+<!ATTLIST idcliente CDATA #REQUIRED>
+<!ELEMENT prestamo (concepto)>
+<!ELEMENT concepto (#PCDATA)>
+
+]>
+
+
+<banco>
+ 
+     <sucursales>
+         
+          <sucursal codsucursal='n124'>
+         
+             <cuentas>
+                 
+                  <cuenta codcuenta='k124'>
+                      
+                      <cliente nif='n23452522'>
+                         <nombre>juan</nombre>
+                          <apellidos>gutierrez gutierez</apellidos>
+                          <direccion>calle san luis</direccion>
+                          <telefono>546464964</telefono>
+                          
+                          <operaciones>
+                               <operacion>sacar dinero</operacion>
+                          
+                          </operaciones>
+                             <privilegios>
+                               <tarjetacredito>234242</tarjetacredito>
+                                <tarjetadebito>4353453</tarjetadebito>
+                             </privilegios>
+                           <domiciliaciones>
+                               <domiciliacion>
+                                    <agua>45€</agua>
+                               </domiciliacion>
+                               <domiciliacion>
+                                    <luz>145€</luz>
+                               </domiciliacion>
+                               <domiciliacion>
+                                   <gas>125€</gas>
+                               </domiciliacion>
+                          
+                          </domiciliaciones>
+                             
+                          
+                          <prestamos>
+                               <prestamo id='j24242'>
+                                   <concepto>prestamo por compra de coche</concepto>
+                              </prestamo>   
+                                 <prestamo id='j242434'>
+                                   <concepto>prestamo por compra de vivienda</concepto>
+                                   
+                                </prestamo>
+                          
+                          </prestamos>
+                                            
+                      </cliente> 
+                 
+                  </cuenta>
+              
+                  <cuenta codcuenta='m24342'>
+                      
+                      <cliente nif='n12345'>
+                         <nombre>pepe</nombre>
+                          <apellidos>gutierrez marquez</apellidos>
+                          <direccion>calle san pepe</direccion>
+                          <telefono>546464964</telefono>
+                          
+                          <operaciones>
+                               <operacion>ingresar dinero</operacion>
+                                 <operacion>sacar dinero</operacion>                   
+                          </operaciones>
+                             <privilegios>
+                               <tarjetacredito>34535</tarjetacredito>
+                                <tarjetadebito>243424234</tarjetadebito>
+                             </privilegios>
+                           <domiciliaciones>
+                               <domiciliacion>
+                                    <agua>50€</agua>
+                               </domiciliacion>
+                               <domiciliacion>
+                                    <luz>150€</luz>
+                               </domiciliacion>
+                               <domiciliacion>
+                                   <gas>175€</gas>
+                               </domiciliacion>
+                          
+                          </domiciliaciones>
+                             
+                          
+                          <prestamos>
+                               <prestamo id='n8688'>
+                                   <concepto>prestamo por compra de coche</concepto>
+                              </prestamo>   
+                                 <prestamo id='n343546'>
+                                   <concepto>prestamo por compra de vivienda</concepto>
+                                   
+                                </prestamo>
+                          
+                          </prestamos>
+                                            
+                      </cliente> 
+                 
+                  </cuenta>
+              
+                  
+                 
+                 
+                 
+                 
+                 
+                 
+              </cuentas> 
+                  
+        </sucursal>
+         
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    </sucursales> 
+
+
+</banco>

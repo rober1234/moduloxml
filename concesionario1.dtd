@@ -1,0 +1,22 @@
+<!ELEMENT coches (coche+)>
+<!ELEMENT coche (carroceria,motor,especificaciones)>
+<!ATTLIST coche numbastidor ID #REQUIRED>
+<!ELEMENT carroceria (color,numpuertas,cabrio?)>
+<!ELEMENT color (#PCDATA)>
+<!ATTLIST color tipo (metalizado|basico) #REQUIRED>
+<!ELEMENT numpuertas (#PCDATA)>
+<!ELEMENT cabrio EMPTY>
+<!ENTITY % consumo "(cdiesel|cgasolina|celectrico|cmixto)+">
+<!ELEMENT motor (cilindrada,cv,%consumo;)>
+<!ELEMENT cilindrada (#PCDATA)>
+<!ELEMENT cv (#PCDATA)>
+<!ELEMENT cdiesel (#PCDATA)>
+<!ELEMENT cgasolina (#PCDATA)>
+<!ELEMENT celectrico (#PCDATA)>
+<!ELEMENT cmixto (#PCDATA)>
+
+<!ELEMENT especificaciones (marca,modelo,estado)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT estado EMPTY>
+<!ATTLIST estado id (nuevo | km0 | usado) #REQUIRED>

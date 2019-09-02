@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pa:instituto[
+<!ELEMENT pa:instituto (pa:pas,pro:profe,alu:alum)>
+<!ATTLIST pa:instituto xmlns:pa CDATA #FIXED "http://www.robervaz.com/xml/personal"> 
+<!ATTLIST  pa:instituto especialidad CDATA #REQUIRED>
+<!ELEMENT pa:pas (pa:nombre,pa:apellidos,pa:puesto,pa:telefono)>
+
+<!ELEMENT pa:nombre (#PCDATA)>
+<!ELEMENT pa:apellidos (#PCDATA)>
+<!ELEMENT pa:puesto (#PCDATA)>
+<!ELEMENT pa:telefono (#PCDATA)>
+
+<!ATTLIST pa:instituto xmlns:pro CDATA #FIXED "http://www.robervaz.com/xml/profesores"> 
+<!ELEMENT pro:profe (pro:nombre,pro:apellidos,pro:asignatura,pro:telefono)>
+<!ELEMENT pro:nombre (#PCDATA)>
+<!ELEMENT pro:apellidos (#PCDATA)>
+<!ELEMENT pro:asignatura (#PCDATA)>
+<!ELEMENT pro:telefono (#PCDATA)>
+
+<!ATTLIST pa:instituto xmlns:alu CDATA #FIXED "http://www.robervaz.com/xml/alumnos"> 
+<!ELEMENT alu:alum (alu:nombre,alu:apellidos,alu:curso,alu:telefono)>
+<!ELEMENT alu:nombre (#PCDATA)>
+<!ELEMENT alu:apellidos (#PCDATA)>
+<!ELEMENT alu:curso (#PCDATA)>
+<!ELEMENT alu:telefono (#PCDATA)>
+
+
+
+
+]>
+
+
+<pa:instituto   especialidad="enseñanza" >
+    
+    <pa:pas>
+        <pa:nombre>juan</pa:nombre>
+        <pa:apellidos>perez suarez</pa:apellidos>
+        <pa:puesto>administrador</pa:puesto>
+        <pa:telefono>2355535334</pa:telefono>
+    
+    </pa:pas>
+    
+    <pro:profe>
+    
+        <pro:nombre>pablo</pro:nombre>
+        <pro:apellidos>perez suarez</pro:apellidos>
+        <pro:asignatura>historia</pro:asignatura>
+        <pro:telefono>2355535334</pro:telefono>
+    
+        
+    </pro:profe>
+    
+    <alu:alum>
+    
+        <alu:nombre>roberto</alu:nombre>
+        <alu:apellidos>perez suarez</alu:apellidos>
+        <alu:curso>5</alu:curso>
+        <alu:telefono>2355535334</alu:telefono>
+     
+    
+    </alu:alum>
+    
+    
+</pa:instituto>

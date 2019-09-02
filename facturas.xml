@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  facturas [
+<!ELEMENT facturas (factura+)>
+<!ELEMENT factura (emi:emisor,clie:clientes,factura)>
+<!ATTLIST fa:factura fa:numero CDATA #REQUIRED>
+<!ATTLIST fa:factura fa:fecha CDATA #REQUIRED>
+<!ELEMENT emi:emisor (emi:nombre,emi:cif,emi:telefono)>
+<!ATTLIST emi:emisor  xmlns:emi CDATA #FIXED "http://www.robervaz.com/xml/emisor">
+<!ELEMENT emi:nombre (#PCDATA)>
+<!ELEMENT emi:direccion (#PCDATA)>
+<!ELEMENT emi:telefono (#PCDATA)>
+<!ELEMENT clie:clientes (clie:nombre,clie:cif,clie:telefono)>
+<!ATTLIST clie:clientes  xmlns:clie CDATA #FIXED "http://www.robervaz.com/xml/clientes">
+<!ELEMENT clie:nombre (#PCDATA)>
+<!ELEMENT clie:cif (#PCDATA)>
+<!ELEMENT clie:telefono (#PCDATA)>
+<!ELEMENT factura (linea+)>
+<!ATTLIST factura importe CDATA #REQUIRED>
+<!ELEMENT linea (descripcion,cantidad,oferta,pvp)>
+<!ATTLIST linea codigo CDATA #REQUIRED>
+<!ATTLIST  linea tipo (libro|dvd|varios) #IMPLIED >
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT oferta  EMPTY>
+<!ELEMENT pvp (#PCDATA)>
+
+]>
+
+
+<facturas>
+   <factura numero="3"  fecha="34-06-2019">
+         <emi:emisor>
+            <emi:nombre>libreria perez</emi:nombre>
+            <emi:cif>5235235262</emi:cif>
+           <emi:telefono>689769845</emi:telefono>
+      
+       </emi:emisor>
+     
+        <clie:clientes>
+            <clie:nombre>libreria perez</clie:nombre>
+            <clie:cif>5235235262</clie:cif>
+           <clie:telefono>689769845</clie:telefono>
+      
+       </clie:clientes>
+       </factura>
+       
+       <factura importe="1238">
+            <linea codigo="123ty" tipo="libro">
+                <descripcion>libro de enseñanza</descripcion>      
+                <cantidad>2</cantidad> 
+                <oferta/>
+                <pvp>fsfssd</pvp>     
+            
+               <descripcion>curso html</descripcion>
+               <cantidad>2</cantidad>
+               <oferta/>
+               <pvp>45€</pvp>
+           
+             </linea>
+       
+        </factura>
+   
+ 
+   </facturas>

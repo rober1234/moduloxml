@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coches SYSTEM "concesionario1.dtd">
+
+<coches>
+ <coche numbastidor="A2345uy">
+       <carroceria>
+            <color tipo="metalizado"></color> 
+             <numpuertas>4</numpuertas> 
+             <cabrio/>  
+       </carroceria>
+       <motor>
+         <cilindrada> 2000 </cilindrada>
+         <cv>234v </cv>
+         <cdiesel>12l</cdiesel>
+                 
+                    
+     </motor>
+    <especificaciones>
+            <marca> renoult</marca>
+            <modelo>tiburon</modelo>
+            <estado id ="nuevo"/>
+    </especificaciones>     
+ </coche>
+  
+</coches>

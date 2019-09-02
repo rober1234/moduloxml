@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeropuerto[
+<!ELEMENT aeropuerto (nombre,vuelos,fecha)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT vuelos (vuelo+)>
+<!ELEMENT vuelo (diario?,origen,destino,horasalida,horallegada)>
+<!ATTLIST vuelo codigo CDATA #REQUIRED>
+<!ATTLIST vuelo estado (C|E|R) "E">
+<!ELEMENT diario EMPTY>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT horasalida (#PCDATA)>
+<!ELEMENT horallegada (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+
+]>
+
+
+<aeropuerto>
+
+    <nombre> jfk  </nombre>
+    
+    <vuelos> 
+      <vuelo codigo="n23434" estado="C">
+        <diario/>
+        <origen>new york</origen>
+        <destino>Santander</destino>
+        <horasalida>23:40</horasalida>
+        <horallegada>17:00</horallegada>      
+        </vuelo>
+        
+        <vuelo codigo="4343" estado="R">
+        <diario/>
+        <origen>seatle</origen>
+        <destino>madrid</destino>
+        <horasalida>23:40</horasalida>
+        <horallegada>17:00</horallegada>      
+        </vuelo>
+    
+        
+     </vuelos>
+  <fecha>23-06-2019</fecha>
+</aeropuerto>

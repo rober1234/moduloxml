@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inversiones [
+<!ELEMENT inversiones (pais+)
+ <!ELEMENT pais (c1:capital,c2:capital)>
+<!ATTLIST c1:capital  xmlns:c1 CDATA #FIXED "http://www.robervaz.com/xml/capital">
+<!ATTLIST:c2:capital  xmlns:c2 CDATA #FIXED "http://www.robervaz.com/xml/dinero">
+<!ATTLIST pais nombre  CDATA #REQUIRED>
+<!ELEMENT c1:capital (#PCDATA)>
+<!ELEMENT c2:capital (#PCDATA)>
+
+]>

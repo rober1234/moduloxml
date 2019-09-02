@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="matricula">
+<xs:compexType>
+ <xs:squence>
+<xs:element name="personal" >
+<xs:compexType>
+ <xs:squence>
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="titulacion" type="xs:string"/>
+    <xs:element name="curso_academico" type="xs:string"/>
+    <xs:element name="domicilios">
+        <xs:compexType>
+        <xs:esquence>
+    
+        <xs:element name="domicilio" type="familiar">
+             <xs:compexType>
+                   <xs:esquence>
+                   
+                        <xs:element name="nombre" type="x:string"/>
+                                            
+                   <xs:element name="domicilio" type="habitual">
+             <xs:compexType>
+                   <xs:esquence>
+                        <xs:element name="nombre" type="x:string"/>
+                   </xs:esquence>      
+             </xs:compexType>
+        </xs:element>
+        </xs:esquence>
+        </xs:compexType>
+       <xs:element name="pago">
+           <xs:compexType>
+             <xs:esquence>
+                     <xs:element name="tipo_matricula"/>
+                            
+             </xs:esquence>           
+           
+           </xs:compexType>       
+      
+       </xs:element>
+      
+    </xs:element>
+   </xs:squence> 
+ </xs:compexType>
+     
+    
+</xs:element>
+</xs:schema>

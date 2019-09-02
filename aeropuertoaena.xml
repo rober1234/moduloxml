@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aena [
+<!ELEMENT aena (ae:aeropuerto,ope:operadores)>
+
+<!ELEMENT ae:aeropuerto (ae:nombre,ae:vuelos,ae:fecha)>
+<!ATTLIST ae:aeropuerto  xmlns:ae CDATA #FIXED "http://www.robervaz.com/xml/aeropuerto"> 
+<!ELEMENT ae:nombre (#PCDATA)>
+<!ELEMENT ae:vuelos (ae:vuelo+)>
+<!ELEMENT ae:vuelo (ae:diario?,ae:origen,ae:destino,ae:horasalida,ae:horallegada)>
+<!ATTLIST ae:vuelo ae:codigo CDATA #REQUIRED>
+<!ATTLIST ae:vuelo ae:estado (C|E|R) "E">
+<!ELEMENT ae:diario EMPTY>
+<!ELEMENT ae:origen (#PCDATA)>
+<!ELEMENT ae:destino (#PCDATA)>
+<!ELEMENT ae:horasalida (#PCDATA)>
+<!ELEMENT ae:horallegada (#PCDATA)>
+<!ELEMENT ae:fecha (#PCDATA)>
+<!ELEMENT ope:operadores (ope:operador+)>
+<!ATTLIST ope:operadores  xmlns:ope CDATA #FIXED "http://www.robervaz.com/xml/operadores">
+<!ELEMENT ope:operador (ope:nombre,ope:origen+,ope:destino+)>
+<!ELEMENT ope:nombre (#PCDATA)>
+<!ELEMENT ope:origen (#PCDATA)>
+<!ELEMENT ope:destino (#PCDATA)>
+]>
+
+<aena>
+<ae:aeropuerto>
+
+    <ae:nombre> jfk  </ae:nombre>
+    
+    <ae:vuelos> 
+      <ae:vuelo ae:codigo="n23434" ae:estado="C">
+        <ae:diario/>
+        <ae:origen>new york</ae:origen>
+        <ae:destino>Santander</ae:destino>
+        <ae:horasalida>23:40</ae:horasalida>
+        <ae:horallegada>17:00</ae:horallegada>      
+        </ae:vuelo>
+        
+  <ae:vuelo ae:codigo="nr456" ae:estado="C">
+        <ae:diario/>
+        <ae:origen>Santander</ae:origen>
+        <ae:destino>Madrid</ae:destino>
+        <ae:horasalida>23:40</ae:horasalida>
+        <ae:horallegada>1:00</ae:horallegada>      
+        </ae:vuelo>
+      
+     </ae:vuelos>
+  <ae:fecha>23-06-2019</ae:fecha>
+</ae:aeropuerto>
+
+<ope:operadores>
+   <ope:operador>
+         <ope:nombre>aerolines</ope:nombre>
+        <ope:origen>santander</ope:origen>
+        <ope:destino>madrid</ope:destino>
+</ope:operador>
+
+<ope:operador>
+         <ope:nombre>aerolines</ope:nombre>
+        <ope:origen>madrid</ope:origen>
+        <ope:destino>santander</ope:destino>
+        </ope:operador>
+</ope:operadores>
+
+
+
+</aena>
